@@ -1,5 +1,6 @@
 {
-  "sources": ["src/design.v"],
-  "testbench": "sim/tb_design.v",
-  "simulation_top": "tb_design"
+  "sources": ["src/uart.v",
+   "src/lab3_uart_echo.v"],
+  "testbench": "sim/tb_uart_echo.sv",
+  "simulation_top": "tb_uart_echo"
 }
